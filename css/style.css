@@ -1,0 +1,260 @@
+
+body {
+    
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+
+    
+}
+
+a {color: grey;}
+a:hover {color: white;}
+
+h1 { text-align: center; color: grey; font-size: 3em;}
+h2 { text-align: center; color: grey; font-size: 2em;}
+p {text-align: center; color: gray;
+padding-left: 5em;
+padding-right: 5em}
+
+.center {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center img {margin: 5vw;}
+
+/*-------------------- page cover -----------------------*/
+
+
+div.cover{
+    background: url(../images/cover1.jpg)
+    center center no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 20vh
+}
+    
+div.covercasestudy1{
+    background: url(../images/covercs1.jpg)
+    center center no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 20vh
+}
+
+div.covercasestudy2{
+    background: url(../images/covercs2.jpg)
+    center center no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 20vh
+}
+
+div.covercasestudy3{
+    background: url(../images/milan.jpg)
+    center center no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 20vh
+}
+
+div.covercasestudy4{
+    background: url(../images/milan.jpg)
+    center center no-repeat;
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-right: 20vh
+}
+   
+    
+    div.casestudy1 {
+        height: 100vh;
+        width: 100vw;
+        display: inline-block;
+ } 
+
+
+
+    div.casestudy2 {
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    
+    }
+
+/*---------------- NAV --------------------*/   
+
+
+ul.nav {
+    
+      padding: 1em 0;
+  /*border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;*/
+  margin-bottom: 4em;
+  margin-top: 3vh;
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+      text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+    
+
+
+ul li  {
+  display: inline;
+  margin: 20px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+
+}
+
+ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+ ul li a:hover {
+  border-bottom: none;
+ opacity: .6;
+}
+
+
+/*-------------- portfolio -----------*/
+
+img.app {
+    margin-left: 5vw;
+    margin-top: 20vh
+  }   
+
+img.icons {
+    margin-left: 10vw;
+    
+}
+
+img.brand {
+    margin-left: 5vw;
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+}
+
+img.fairy {
+    margin-left: 10vw;
+    margin-bottom: 20vh;
+}
+
+
+    
+    
+
+
+
+/*--------------- footer---------------*/
+#nav-pos a:hover { color: #98A1B7;}
+
+#work {margin: 0 a}
+
+.contact {color: white;
+           margin-bottom: 30px}
+
+hr  { 
+    width: 13%;
+    border: 0;
+    background-color: #98A1B7;
+    height: 3.5px;
+    margin-top: -1.3em;}
+
+footer {background-color: #F8F2F4; text-align: center;}
+    
+ footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: ;
+}
+
+footer li a:hover {
+   
+    color: #E3BCBC;
+}
+
+#foot-pos {
+width:100%;
+margin:0 auto;
+list-style:none;
+    
+}
+
+.social {
+margin: 0 auto;
+margin-left: 300px;    
+}
+
+
+#foot-pos li {
+float:left;
+}
+#foot-pos a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+padding: 15px;
+color:clear;
+margin-left: -1.2em
+}
+
+
+/*--------------- footer---------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------- case study 1 ------------*/
